@@ -51,6 +51,13 @@ import static java.util.Collections.sort;
 public class MergeKSortedList {
 
     public static void main(String[] args) {
+        List<Integer> exmpl = new LinkedList<>();
+        exmpl.add(0, 10);
+        exmpl.add(0,10);
+        exmpl.add(0, 13);
+        exmpl.add(1, 13);
+        exmpl.add(1, 13);
+        System.out.println(exmpl);
 
         List<List<Integer>> num = new ArrayList<>();
         num.add(0, Collections.singletonList(10));
